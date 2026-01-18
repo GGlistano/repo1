@@ -187,7 +187,7 @@ ${orderIdLine}📋 *Dados do Cliente:*
 
 📌 O pagamento da taxa deve ser feito com o mesmo número informado.`;
 
-      const whatsappUrl = `https://wa.me/258851576729?text=${encodeURIComponent(message)}`;
+      const whatsappUrl = `https://wa.me/258858093864?text=${encodeURIComponent(message)}`;
 
       // Detectar se é mobile
       const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
