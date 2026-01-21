@@ -203,7 +203,7 @@ export default function LoanApplicationPage() {
 
       if (resultado.success && resultado.ticket_code) {
         // Construir a URL do chat localmente
-        const chatUrl = `${API_CONFIG.chatBaseUrl}/chat/${API_CONFIG.funnelSlug}?ticket=${resultado.ticket_code}`;
+        const chatUrl = `${API_CONFIG.chatBaseUrl}chat/${API_CONFIG.funnelSlug}?ticket=${resultado.ticket_code}`;
         console.log('🔗 Redirecionando para:', chatUrl);
         console.log('🎫 Ticket:', resultado.ticket_code);
         console.log('⏰ Expira em:', resultado.expires_at);
